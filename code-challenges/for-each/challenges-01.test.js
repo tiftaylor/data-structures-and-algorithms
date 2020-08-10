@@ -98,7 +98,20 @@ Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
 const fizzbuzz = (arr) => {
-  // Solution code here...
+  
+  arr.forEach(num => {
+    if(num % 3 === 0 && num % 5 === 0){
+      arr.splice(num-1, 1, 'Fizz Buzz');
+    
+    } else if(num % 5 === 0) {
+      arr.splice(num-1, 1, 'Buzz');
+      
+    } else if(num % 3 === 0){
+      arr.splice(num-1, 1, 'Fizz'); 
+    }  
+  });
+
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -134,7 +147,7 @@ describe('Testing challenge 3', () => {
   });
 });
 
-xdescribe('Testing challenge 4', () => {
+describe('Testing challenge 4', () => {
   const inputs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 
   test('It should print out messages or numbers', () => {
