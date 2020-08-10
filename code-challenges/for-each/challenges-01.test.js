@@ -10,35 +10,48 @@ Then, write a function named speaker that takes in a string and a callback funct
 
 const greeting = (word) => {
   // Solution code here...
+  return word.toUpperCase();
 };
 
 const speaker = (message, callback) => {
   // Solution code here...
+  const upper = callback(message);
+  return upper;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
-Write a function named addValues that takes in an array and a value and pushes the value into the array. This function does not need a return statement.
+Write a function named addValues that takes in an array and a value 
+
+and pushes the value into the array. This function does not need a return statement.
 
 Then, write a function named addNumbers that takes in four arguments:
+
   - A number to be added to an array
   - An array into which the number should be added
   - The number of times the number should be added
-  - A callback function to use to add the numbers to the array (Hint: you already defined it)
+
+  USE addValues() ?? - A callback function to use to add the numbers to the array (Hint: you already defined it)
 
 Within the addNumbers function, invoke the callback function as many times as necessary, based on the third argument of the addNumbers function.
 
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
+let arr = [];
 
 const addValues = (arr, value) => {
-  // Solution code here...
+  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+  for (let i = 0; i < times; i++){
+    callback(arr, num);
+  };
+  return arr;
 };
+
+// addNumbers(8, arr, 5, addValues);
 
 /* ------------------------------------------------------------------------------------------------
 
@@ -57,10 +70,25 @@ The inventory is formatted like this:
 
 This function should use forEach to populate your grocery list based on the store's inventory. If the item is available, add it to your list. Return the final list.
 ------------------------------------------------------------------------------------------------ */
+const inventory = 
+  [
+    { name: 'apples', available: true },
+    { name: 'pears', available: true },
+    { name: 'oranges', available: false },
+    { name: 'bananas', available: true },
+    { name: 'blueberries', available: false }
+  ];
+
+let availableItems = [];
 
 const createList = (availableItems) => {
-  // Solution code here...
+  
+  if (inventory.available === 'true'){
+    availableItems.push(inventory.name);
+  }
 };
+
+console.log(availableItems);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -113,7 +141,7 @@ describe('Testing challenge 3', () => {
   });
 });
 
-describe('Testing challenge 4', () => {
+xdescribe('Testing challenge 4', () => {
   const inputs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 
   test('It should print out messages or numbers', () => {
