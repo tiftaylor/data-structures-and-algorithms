@@ -10,35 +10,48 @@ Then, write a function named speaker that takes in a string and a callback funct
 
 const greeting = (word) => {
   // Solution code here...
+  return word.toUpperCase();
 };
 
 const speaker = (message, callback) => {
   // Solution code here...
+  const upper = callback(message);
+  return upper;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
-Write a function named addValues that takes in an array and a value and pushes the value into the array. This function does not need a return statement.
+Write a function named addValues that takes in an array and a value 
+
+and pushes the value into the array. This function does not need a return statement.
 
 Then, write a function named addNumbers that takes in four arguments:
+
   - A number to be added to an array
   - An array into which the number should be added
   - The number of times the number should be added
-  - A callback function to use to add the numbers to the array (Hint: you already defined it)
+
+  USE addValues() ?? - A callback function to use to add the numbers to the array (Hint: you already defined it)
 
 Within the addNumbers function, invoke the callback function as many times as necessary, based on the third argument of the addNumbers function.
 
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
+let arr = [];
 
 const addValues = (arr, value) => {
-  // Solution code here...
+  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+  for (let i = 0; i < times; i++){
+    callback(arr, num);
+  };
+  return arr;
 };
+
+// addNumbers(8, arr, 5, addValues);
 
 /* ------------------------------------------------------------------------------------------------
 
@@ -59,7 +72,15 @@ This function should use forEach to populate your grocery list based on the stor
 ------------------------------------------------------------------------------------------------ */
 
 const createList = (availableItems) => {
-  // Solution code here...
+  
+  const inStock = [];
+
+  availableItems.forEach(item => {
+    if (item.available === true){
+      inStock.push(item.name);
+    }
+  });
+  return inStock;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -77,7 +98,20 @@ Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
 const fizzbuzz = (arr) => {
-  // Solution code here...
+  
+  arr.forEach(num => {
+    if(num % 3 === 0 && num % 5 === 0){
+      arr.splice(num-1, 1, 'Fizz Buzz');
+    
+    } else if(num % 5 === 0) {
+      arr.splice(num-1, 1, 'Buzz');
+      
+    } else if(num % 3 === 0){
+      arr.splice(num-1, 1, 'Fizz'); 
+    }  
+  });
+
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
