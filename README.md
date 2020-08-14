@@ -13,7 +13,7 @@ M | 08/10/20 | forEach | Tif Taylor & Michael Mandell
 T | 08/11/20 | variables | Tif Taylor & Marchael Acode  
 W | 08/12/20 | sort | Tif Taylor & Amelia Waggoner/Marchael Acode 
 T | 08/13/20 | regex | Tif Taylor & Matthew Peterson/Chandler Puckett/Mike Wohl
-F | 08/14/20 | title | Tif Taylor & ??  
+F | 08/14/20 | array manipulation | Tif Taylor & Mike Wohl  
 M | 08/17/20 | title | Tif Taylor & ??  
 T | 08/18/20 | title | Tif Taylor & ??  
 W | 08/19/20 | title | Tif Taylor & ??  
