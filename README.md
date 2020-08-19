@@ -15,8 +15,8 @@ W | 08/12/20 | sort | Tif Taylor & Amelia Waggoner/Marchael Acode
 T | 08/13/20 | regex | Tif Taylor & Matthew Peterson/Chandler Puckett/Mike Wohl
 F | 08/14/20 | array manipulation | Tif Taylor & Mike Wohl    
 M | 08/17/20 | search objects | Tif Taylor & Darius Pasilaban    
-T | 08/18/20 | .map | Tif Taylor & Jack Nelson/John Ramirez    
-W | 08/19/20 | title | Tif Taylor & ??  
+T | 08/18/20 | .map | Tif Taylor & John Ramirez/Jack   
+W | 08/19/20 | filter| Tif Taylor & Jack Nelson 
 T | 08/20/20 | title | Tif Taylor & ??  
 F | 08/21/20 | title | Tif Taylor & ??  
 M | 08/24/20 | title | Tif Taylor & ??  
