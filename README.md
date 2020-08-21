@@ -22,7 +22,7 @@ M | 08/17/20 | search objects | Tif Taylor & Darius Pasilaban
 T | 08/18/20 | .map | Tif Taylor & John Ramirez/Jack   
 W | 08/19/20 | filter| Tif Taylor & Jack Nelson   
 T | 08/20/20 | reduce | Tif Taylor & John Ramierz/Mike Wohl/Jack Nelson/Amelia Waggoner/Matthew Peterson      
-F | 08/21/20 | title | Tif Taylor & ??  
+F | 08/21/20 | chaining methods | Tif Taylor & Jack Nelson    
 M | 08/24/20 | title | Tif Taylor & ??  
 T | 08/25/20 | title | Tif Taylor & ??  
 W | 08/26/20 | title | Tif Taylor & ??  
