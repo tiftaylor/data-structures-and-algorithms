@@ -11,20 +11,20 @@ This repo is set up for Code Fellows 301 and 401 course daily paired programming
 
 ## 301 | Daily Code Challenges
 
-Day | Date | Title | Contributors
---|--|--|--
-M | 08/10/20 | forEach | Tif Taylor & Michael Mandell 
-T | 08/11/20 | variables | Tif Taylor & Marchael Acode  
-W | 08/12/20 | sort | Tif Taylor & Amelia Waggoner/Marchael Acode 
-T | 08/13/20 | regex | Tif Taylor & Matthew Peterson/Chandler Puckett/Mike Wohl
-F | 08/14/20 | array manipulation | Tif Taylor & Mike Wohl    
-M | 08/17/20 | search objects | Tif Taylor & Darius Pasilaban    
-T | 08/18/20 | .map | Tif Taylor & John Ramirez/Jack   
-W | 08/19/20 | filter| Tif Taylor & Jack Nelson   
-T | 08/20/20 | reduce | Tif Taylor & John Ramierz/Mike Wohl/Jack Nelson/Amelia Waggoner/Matthew Peterson      
-F | 08/21/20 | chaining methods | Tif Taylor & Jack Nelson    
-M | 08/24/20 | title | Tif Taylor & ??  
-T | 08/25/20 | title | Tif Taylor & ??  
-W | 08/26/20 | title | Tif Taylor & ??  
-T | 08/27/20 | title | Tif Taylor & ??  
-F | 08/28/20 | title | Tif Taylor & ??  
+Day | Date | Title 
+--|--|--
+M | 08/10/20 | forEach 
+T | 08/11/20 | variables 
+W | 08/12/20 | sort 
+T | 08/13/20 | regex 
+F | 08/14/20 | array manipulation 
+M | 08/17/20 | search objects   
+T | 08/18/20 | .map 
+W | 08/19/20 | filter
+T | 08/20/20 | reduce       
+F | 08/21/20 | chaining methods 
+M | 08/24/20 | validation 
+T | 08/25/20 | title 
+W | 08/26/20 | title  
+T | 08/27/20 | title 
+F | 08/28/20 | title  
