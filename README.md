@@ -9,6 +9,7 @@ This repo is set up for Code Fellows 301 and 401 course daily paired programming
 - For the reduce challange, I evaluated and refactored my challenge code with [this guys file](https://gist.github.com/quangnd/572c6d410cb6512b7f252af0f2eb7cae) I found on google as a starting point. I did share my deduced result with the group per their request. 
 - For the split reduce I talked with Matthew and used this [resource](https://dev.to/navi/comment/45bn) 
 - For day 12 challenges I used [this StackOverflow post](https://stackoverflow.com/questions/39127989/creating-a-javascript-object-from-two-arrays) and my table mates.
+- Used [MDN Page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) for the string.includes() method
    
 
 ## 301 | Daily Code Challenges
@@ -27,6 +28,6 @@ T | 08/20/20 | reduce
 F | 08/21/20 | chaining methods 
 M | 08/24/20 | validation 
 T | 08/25/20 | nested loops
-W | 08/26/20 | title  
+W | 08/26/20 | interation to change strings 
 T | 08/27/20 | title 
 F | 08/28/20 | title  
