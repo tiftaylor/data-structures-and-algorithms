@@ -10,6 +10,8 @@ This repo is set up for Code Fellows 301 and 401 course daily paired programming
 - For the split reduce I talked with Matthew and used this [resource](https://dev.to/navi/comment/45bn) 
 - For day 12 challenges I used [this StackOverflow post](https://stackoverflow.com/questions/39127989/creating-a-javascript-object-from-two-arrays) and my table mates.
 - Used [MDN Page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) for the string.includes() method
+- For solving sort for properties in objects in an array I used [this as reference](https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/)
+
    
 
 ## 301 | Daily Code Challenges
@@ -29,5 +31,4 @@ F | 08/21/20 | chaining methods
 M | 08/24/20 | validation 
 T | 08/25/20 | nested loops
 W | 08/26/20 | interation to change strings 
-T | 08/27/20 | title 
-F | 08/28/20 | title  
+T | 08/27/20 | multi practice   
