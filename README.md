@@ -12,23 +12,36 @@ This repo is set up for Code Fellows 301 and 401 course daily paired programming
 - Used [MDN Page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes) for the string.includes() method
 - For solving sort for properties in objects in an array I used [this as reference](https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/)
 
-   
+## 401 | Daily Code Challenges
+
+Week | Dates | Codechallenges 
+--|--|--|--|--|--|--
+1 | 10/12/20 - 10/16/20 | CC01 | CC02 | CC03 | CC04 | CC05     
+2 | 10/19/20 - 10/23/20 | CC01 | CC02 | CC03 | CC04 | CC05     
+3 | 10/26/20 - 10/30/20 | CC01 | CC02 | CC03 | CC04 | CC05  
+4 | 11/02/20 - 11/06/20 | CC01 | CC02 | CC03 | CC04 | CC05   
+5 | 11/09/20 - 11/13/20 | CC01 | CC02 | CC03 | CC04 | CC05   
+6 | 11/16/20 - 11/20/20 | CC01 | CC02 | CC03 | CC04 | CC05     
+7 | 11/23/20 - 11/27/20 | CC01 | CC02 | CC03 | CC04 | CC05  
+8 | 11/30/20 - 12/04/20 | CC01 | CC02 | CC03 | CC04 | CC05  
+9 | 12/07/20 - 12/11/20 | CC01 | CC02 | CC03 | CC04 | CC05        
+
 
 ## 301 | Daily Code Challenges
 
 Day | Date | Title 
 --|--|--
-M | 08/10/20 | forEach 
-T | 08/11/20 | variables 
-W | 08/12/20 | sort 
-T | 08/13/20 | regex 
-F | 08/14/20 | array manipulation 
-M | 08/17/20 | search objects   
-T | 08/18/20 | .map 
-W | 08/19/20 | filter
-T | 08/20/20 | reduce       
-F | 08/21/20 | chaining methods 
-M | 08/24/20 | validation 
-T | 08/25/20 | nested loops
-W | 08/26/20 | interation to change strings 
-T | 08/27/20 | multi practice   
+M | 08/10/20 | [forEach](/code-challenges/for-each/challenges-01.test.js)   
+T | 08/11/20 | [Value vs. Reference](/code-challenges/for-each/challenges-02.test.js)   
+W | 08/12/20 | [Sort](/code-challenges/for-each/challenges-03.test.js) 
+T | 08/13/20 | [RegEx](/code-challenges/for-each/challenges-04.test.js) 
+F | 08/14/20 | [Array & String](/code-challenges/for-each/challenges-05.test.js) 
+M | 08/17/20 | [Object Iteration](/code-challenges/for-each/challenges-06.test.js)   
+T | 08/18/20 | [Map](/code-challenges/for-each/challenges-07.test.js) 
+W | 08/19/20 | [Filter](/code-challenges/for-each/challenges-08.test.js)
+T | 08/20/20 | [Reduce](/code-challenges/for-each/challenges-09.test.js)       
+F | 08/21/20 | [Chaining Methods](/code-challenges/for-each/challenges-10.test.js) 
+M | 08/24/20 | [RegEx Part 2 - Validation](/code-challenges/for-each/challenges-11.test.js) 
+T | 08/25/20 | [2D Arrays](/code-challenges/for-each/challenges-12.test.js)
+W | 08/26/20 | [Includes, Every, Substring, charAt](/code-challenges/for-each/challenges-13.test.js) 
+T | 08/27/20 | [Review](/code-challenges/for-each/challenges-14.test.js)   
