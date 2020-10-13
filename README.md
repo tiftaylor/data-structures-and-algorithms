@@ -14,6 +14,7 @@ This repo is set up for Code Fellows 301 and 401 course daily paired programming
 
 ## 401 | Daily Code Challenges 
 
+
 Week | Dates | M | T | W | Th | F        
 --|--|--|--|--|--|--       
 1 | 10/12/20 - 10/16/20 | CC01 | CC02 | CC03 | CC04 | CC05     
