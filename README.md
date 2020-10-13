@@ -16,7 +16,7 @@ This repo is set up for Code Fellows 301 and 401 course daily paired programming
 
 Week | Dates | Codechallenges 
 --|--|--|--|--|--|--
-1 | 10/12/20 - 10/16/20 | CC01 | CC02 | CC03 | CC04 | CC05     
+1 | 10/12/20 - 10/16/20 | (CC01)[/javascript/arrays/arrayReverse/array-reverse.js] | CC02 | CC03 | CC04 | CC05     
 2 | 10/19/20 - 10/23/20 | CC01 | CC02 | CC03 | CC04 | CC05     
 3 | 10/26/20 - 10/30/20 | CC01 | CC02 | CC03 | CC04 | CC05  
 4 | 11/02/20 - 11/06/20 | CC01 | CC02 | CC03 | CC04 | CC05   
