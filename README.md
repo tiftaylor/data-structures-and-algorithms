@@ -13,11 +13,11 @@ This repo is set up for Code Fellows 301 and 401 course daily paired programming
 - For solving sort for properties in objects in an array I used [this as reference](https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/)
 
 ## 401 | Daily Code Challenges 
-
+The links below link to the challenge JS file
 
 Week | Dates | M | T | W | Th | F        
 --|--|--|--|--|--|--       
-1 | 10/12/20 - 10/16/20 | CC01 | CC02 | CC03 | CC04 | CC05     
+1 | 10/12/20 - 10/16/20 | [CC01](/javascript/arrays/arrayReverse/array-reverse.js) | [CC02](/javascript/arrays/arrayShift/array-shift.js) | CC03 | CC04 | CC05     
 2 | 10/19/20 - 10/23/20 | CC01 | CC02 | CC03 | CC04 | CC05     
 3 | 10/26/20 - 10/30/20 | CC01 | CC02 | CC03 | CC04 | CC05  
 4 | 11/02/20 - 11/06/20 | CC01 | CC02 | CC03 | CC04 | CC05   
