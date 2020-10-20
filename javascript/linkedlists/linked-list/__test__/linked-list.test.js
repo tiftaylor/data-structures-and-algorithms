@@ -1,5 +1,6 @@
 const file = require('../linked-list.js');
 
+// tests for CC05
 describe('Testing linked list file methods', () => {
 
   test('can make empty list', () => {
@@ -39,5 +40,34 @@ describe('Testing linked list file methods', () => {
     const testItem = list.toString();
     expect(testItem).toBe('{ 1 } -> NULL');
   })
+
+})
+
+// tests for CC06
+describe('Testing append method', () => {
+
+  test('append one node at end', () => {
+    const one = new insertions.Node(1, null);
+    const list = new insertions.LinkedList(one);
+    list.append(2);
+
+    expect(one.next).not.toBe(null);
+    expect(one.next.value).toBe(2);
+    expect(one.next.next).toBe(null);
+  })
+
+  test('append multiple nodes at end', () => {
+    const one = new insertions.Node(1, null);
+    const list = new insertions.LinkedList(one);
+    list.append(2);
+    list.append(3);
+    list.append(4);
+
+    expect(one.next.value).toBe(2);
+    expect(one.next.next.value).toBe(3);
+    expect(one.next.next.next.value).toBe(4);
+  })
+
+  //TODO: append to empty linkedlist
 
 })

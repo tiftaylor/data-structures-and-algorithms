@@ -44,6 +44,20 @@ class LinkedList{
     return string;
   }
 
+  // methods below are from Code Challenge 06
+  append(value){
+    let current = this.head;
+
+    while(current.next !== null){
+      current = current.next;
+    }
+
+    let newNode = new Node(value, null);
+    current.next = newNode;
+  }
+
+
+  
 }
 
 module.exports = {
