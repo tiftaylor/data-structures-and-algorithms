@@ -43,8 +43,9 @@ describe('Testing linked list file methods', () => {
 
 })
 
+
 // tests for CC06
-describe('Testing class06 methods', () => {
+describe('Testing cc06 methods', () => {
 
   test('append one node at end', () => {
     const one = new file.Node(1, null);
@@ -109,4 +110,64 @@ describe('Testing class06 methods', () => {
     expect(list.head.next.next.value).toBe(3);
     expect(list.head.next.next.next).toBe(null);
   })
+})
+
+
+// Tests for CC07
+describe('Testing cc07 methods', () => {
+
+  test('when k is longer than the list', () => {
+    k = 3;
+    const list = new file.LinkedList();
+    list.insert(2);
+    list.insert(1);
+
+    expect(() => {
+      list.kthFromEnd(k);
+    }).toThrow('There are not that many nodes');
+  })
+
+  test('when k and length of list are same', () => {
+    k = 3;
+    const list = new file.LinkedList();
+    list.insert(3);
+    list.insert(2);
+    list.insert(1);
+
+    expect(() => {
+      list.kthFromEnd(k);
+    }).toThrow('There are not that many nodes');
+  })
+
+  test('when k is a negative int', () => {
+    k = -1;
+    const list = new file.LinkedList();
+    list.insert(2);
+    list.insert(1);
+
+    expect(() => {
+      list.kthFromEnd(k);
+    }).toThrow('k cannot be negative');
+  })
+
+  test('when the list is 1 and k is 0', () => {
+    k = 0;
+    const list = new file.LinkedList();
+    list.insert(1);
+
+    expect(list.kthFromEnd(k)).toEqual(1);
+  })
+
+  test('when k is an int that lands somewhere in the middle', () => {
+    k = 2;
+    const list = new file.LinkedList();
+    list.insert(5);
+    list.insert(4);
+    list.insert(3);
+    list.insert(2);
+    list.insert(1);
+
+    expect(list.kthFromEnd(k)).toEqual(3);
+  })
+
 })

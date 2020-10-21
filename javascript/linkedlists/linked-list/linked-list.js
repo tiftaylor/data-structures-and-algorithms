@@ -103,6 +103,46 @@ class LinkedList{
     add.next = newNext;
   }
 
+
+  // method from challenge 07
+  kthFromEnd(k){
+    let curr = this.head;
+    let nodeCount = 1;
+
+    // error if list is empty
+    if(curr === null){
+      throw Error `The list is Empty`;
+    }
+    // error if k is a negative number
+    if(k < 0){
+      throw Error `k cannot be negative`;
+    }
+
+    while(curr.next !== null){
+      curr = curr.next;
+      nodeCount++;
+    }
+
+    const math = nodeCount - k;
+    // reset curr and count to cycle back through the list
+    curr = this.head;
+    nodeCount = 1;
+    // error if k is longer than the list
+    if(math <= 0){
+      throw Error `There are not that many nodes`;
+    }
+
+    while(nodeCount !== math){
+      curr = curr.next;
+      nodeCount++;
+    }
+
+    return curr.value;
+
+  }
+
+
+
 }
 
 module.exports = {
