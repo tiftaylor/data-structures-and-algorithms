@@ -103,6 +103,21 @@ class LinkedList{
     add.next = newNext;
   }
 
+
+  // method from challenge 07
+  kthFromEnd(k){
+    let curr = this.head;
+    let nodeCount = 1;
+
+    if(curr === null){
+      throw Error `???`
+    }
+
+    
+  }
+
+
+
 }
 
 module.exports = {

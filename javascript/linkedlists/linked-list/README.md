@@ -6,6 +6,7 @@
 
 CC05: Create a Node and Linked List class. Include methods for `insert`, `includes`, `toString`
 CC06: Extend Linked List class - Include methods for `append`, `insertBefore`, `insertAfter`
+CC07:
 
 ## Approach & Efficiency
 
