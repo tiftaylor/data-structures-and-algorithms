@@ -147,7 +147,7 @@ describe('Testing cc07 methods', () => {
 
     expect(() => {
       list.kthFromEnd(k);
-    }).toThrow('You cannot use a negative number');
+    }).toThrow('k cannot be negative');
   })
 
   test('when the list is 1 and k is 0', () => {
