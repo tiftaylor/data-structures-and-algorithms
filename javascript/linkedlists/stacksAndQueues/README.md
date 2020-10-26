@@ -21,4 +21,4 @@ Big O:
 ## Whiteboard for Challenge 10
 <!-- Embedded whiteboard image -->
 #### CC10
-![whiteboard](../../../assets/cc9.jpg)
+![whiteboard](../../../assets/cc10.jpg)
