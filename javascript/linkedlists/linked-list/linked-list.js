@@ -138,10 +138,7 @@ class LinkedList{
     }
 
     return curr.value;
-
   }
-
-
 
 }
 
