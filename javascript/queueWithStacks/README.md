@@ -20,4 +20,4 @@ Big O:
 ## Whiteboard for Challenge 11
 <!-- Embedded whiteboard image -->
 #### CC11
-![whiteboard](../../../assets/cc11.jpg)
+![whiteboard](./../../assets/cc11.jpg)
